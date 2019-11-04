@@ -320,6 +320,7 @@ public class MainWindow extends UiPart<Stage> {
 
             if (commandResult.isShowProfile()) {
                 profilePanel.setup(commandResult.getProfilePerson(), logic);
+                profilePanel.populateVisitList(commandResult.getObservableVisitList());
                 handleProfilePanel();
             }
 
