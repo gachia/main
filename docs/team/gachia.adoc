@@ -24,6 +24,7 @@ freelance doctors an affordable and easily accessible tool to use without breaki
 to manage their patient's information, allowing them to store personal details and write reports after a medical checkup
 with a patient. VISIT is also able to store appointments for tracking purposes and store shortcuts for quicker inputs.
 
+[.text-center]
 .VISIT Main Window
 image::Ui.png[width="790"]
 
@@ -82,6 +83,7 @@ tracks reminders and followups by the date and time, with a pop up notification 
 
 === UI component
 
+[.text-center]
 .Structure of the UI Component
 image::NewUiClassDiagram.png[]
 
@@ -100,6 +102,7 @@ The `UI` component,
 
 === Model component
 
+[.text-center]
 .Structure of the Model Component
 image::NewModelClassDiagram.png[]
 
@@ -114,6 +117,7 @@ The `Model`,
 
 === Storage component
 
+[.text-center]
 .Structure of the Storage Component
 image::NewStorageClassDiagram.png[]
 
@@ -142,6 +146,7 @@ with a more pronounced color palette and a clearer font.
 
 The following is the snippet of the class diagram of the Ui Component with the new Classes:
 
+[.text-center]
 image::UiRedesignClassDiagram.png[]
 
 1. The `MainWindow` has been new panel which is the ReminderPanel.
@@ -162,6 +167,7 @@ features made by the team. In addition to that, I needed to choose a colour sche
 for today's design standards.
 
 === Concepts
+[.text-center]
 [#img-concept1]
 .Concept 1 of VISIT
 image::UiConcept1.png[Concept 1]
@@ -169,6 +175,7 @@ image::UiConcept1.png[Concept 1]
 The first concept tries to fit all the raw features into the Main Window. A simple wireframe design that allowed me to
 see the possibilities of different layouts. However, this is too barebones and I started expanding on this.
 
+[.text-center]
 [#img-concept2]
 .Concept 2 of VISIT
 image::UiConcept2.png[Concept 2]
@@ -178,6 +185,7 @@ was then broken down into two parts, the short list of patient names in the top 
 selected patient in the center window. The idea came from some examples of Address Book applications I found online. +
 However, the panel layout for the design was too messy and was too small for the Visit Report feature.
 
+[.text-center]
 [#img-concept3]
 .Concept 3 of VISIT
 image::UiConcept3.png[Concept 3]
@@ -186,6 +194,7 @@ For the third concept, I decided to shift the Visit Report to a separate window 
 This gave a more focused view on the Visit Report feature for the user. A banner was also added to label the application in UI.
 A light orange colour scheme was used because I thought it would be a colour that was easy on the eyes of the user.
 
+[.text-center]
 [#img-concept4]
 .Concept 4 of VISIT
 image::UiConcept4.png[Concept 4]
@@ -195,6 +204,7 @@ to look up popular sites, such as Facebook and Twitter, to get inspiration on pr
 that a dark blue colour palette would fit appropriately with current design standards, giving a less boring look to Dark Theme.
 The colour palette also fit the criteria of being easy to look at.
 
+[.text-center]
 [#img-conceptFinal]
 .Final Concept of VISIT
 image::UiConceptFinal.png[Final Concept]
